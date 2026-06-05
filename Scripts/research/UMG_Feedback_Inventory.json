@@ -1,0 +1,743 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_UMG_Feedback_Inventory",
+    "Outer": "UMG_Feedback_Inventory_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "K2Node_CustomEvent_InText",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_PlayAnimation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'UMGSequencePlayer'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "FadeInMessage",
+    "Outer": "UMG_Feedback_Inventory_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "TextProperty",
+        "Name": "InText",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "UMG_Feedback_Inventory_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "UMG_Feedback_Inventory_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "UMG_Feedback_Inventory_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'UMG_Feedback_Inventory_C:WidgetTree'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.18"
+      },
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'UMG_Feedback_Inventory_C:FadeIn_INST'",
+          "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.17"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'UMG_Feedback_Inventory_C:ExecuteUbergraph_UMG_Feedback_Inventory'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'UMG_Feedback_Inventory_C:PreConstruct'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.3"
+      },
+      {
+        "ObjectName": "Function'UMG_Feedback_Inventory_C:Construct'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.2"
+      },
+      {
+        "ObjectName": "Function'UMG_Feedback_Inventory_C:FadeInMessage'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.1"
+      },
+      {
+        "ObjectName": "Function'UMG_Feedback_Inventory_C:ExecuteUbergraph_UMG_Feedback_Inventory'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FadeIn",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MessageText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "FeedbackMessage",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_UMG_Feedback_Inventory": {
+        "ObjectName": "Function'UMG_Feedback_Inventory_C:ExecuteUbergraph_UMG_Feedback_Inventory'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.0"
+      },
+      "FadeInMessage": {
+        "ObjectName": "Function'UMG_Feedback_Inventory_C:FadeInMessage'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.1"
+      },
+      "Construct": {
+        "ObjectName": "Function'UMG_Feedback_Inventory_C:Construct'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.2"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'UMG_Feedback_Inventory_C:PreConstruct'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.3"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "UMG_Feedback_Inventory_C'Default__UMG_Feedback_Inventory_C'",
+      "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.5"
+    }
+  },
+  {
+    "Type": "UMG_Feedback_Inventory_C",
+    "Name": "Default__UMG_Feedback_Inventory_C",
+    "Class": "WidgetBlueprintGeneratedClass'PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.UMG_Feedback_Inventory_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Border'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Bottom",
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'UMG_Feedback_Inventory_C:WidgetTree.Border_0.BorderSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.7"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'UMG_Feedback_Inventory_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.9"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Outer": "Border_0",
+    "Class": "UScriptClass'BorderSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Border'UMG_Feedback_Inventory_C:WidgetTree.Border_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.6"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'UMG_Feedback_Inventory_C:WidgetTree.MessageText'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.16"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'UMG_Feedback_Inventory_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 20.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'UMG_Feedback_Inventory_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.8"
+      },
+      "Content": {
+        "ObjectName": "Border'UMG_Feedback_Inventory_C:WidgetTree.Border_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.6"
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "FadeIn",
+    "Outer": "FadeIn_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "6F861548-409E511A-8362C690-C8E225BC",
+          "Name": "EditableTextBox_100",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'EditableTextBox'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "6F861548-409E511A-8362C690-C8E225BC",
+          "BindingName": "EditableTextBox_100",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'UMG_Feedback_Inventory_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0'",
+              "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.15"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -12000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 90000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "06A0A110-4DE790D3-32D0FFA0-AC0D07F2"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "FadeIn_INST",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": -12000
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 90000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieSceneFloatSection'UMG_Feedback_Inventory_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+                "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.14"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "6F861548-409E511A-8362C690-C8E225BC"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 90000
+          },
+          "SubFrame": 0.0
+        }
+      ],
+      "CompiledSignature": "9671A30F-45D8585A-7C2340B4-7E03982D",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_0",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": -9000
+          },
+          {
+            "Value": 12000
+          },
+          {
+            "Value": 54000
+          },
+          {
+            "Value": 78000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'UMG_Feedback_Inventory_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.11"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'UMG_Feedback_Inventory_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.12"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": -12000
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 90000
+            }
+          }
+        }
+      },
+      "Signature": "1EC5736D-44F5F59C-F1278797-ABD36B0E"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_0",
+    "Outer": "FadeIn",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderOpacity",
+        "PropertyPath": "RenderOpacity",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'UMG_Feedback_Inventory_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.14"
+        }
+      ],
+      "EvaluationFieldGuid": "9A83B42B-45DB2DF8-B56669B4-9E78FFD5",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieSceneFloatSection'UMG_Feedback_Inventory_C:FadeIn_INST.FadeIn.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'",
+              "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.14"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": -12000
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 90000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "9A83B42B-45DB2DF8-B56669B4-9E78FFD5"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "MessageText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "Inventory full"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'terminal-grotesque_Font'",
+          "ObjectPath": "PenDriverPro/Content/UI/Fonts/terminal-grotesque_Font.0"
+        },
+        "TypefaceFontName": "Default",
+        "Size": 22
+      },
+      "Justification": "ETextJustify::Center",
+      "WrapTextAt": 500.0,
+      "Slot": {
+        "ObjectName": "BorderSlot'UMG_Feedback_Inventory_C:WidgetTree.Border_0.BorderSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.7"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "FadeIn_INST",
+    "Outer": "UMG_Feedback_Inventory_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'UMG_Feedback_Inventory_C:FadeIn_INST.FadeIn'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.10"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "MessageText",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "6F861548-409E511A-8362C690-C8E225BC",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "FadeIn",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'UMG_Feedback_Inventory_C:FadeIn_INST.CompiledData'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.13"
+      },
+      "Signature": "9671A30F-45D8585A-7C2340B4-7E03982D"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "UMG_Feedback_Inventory_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'UMG_Feedback_Inventory_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/UMG_Feedback_Inventory.8"
+      }
+    }
+  }
+]

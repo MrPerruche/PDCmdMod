@@ -1,0 +1,315 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_UMG_FadingBox_Text",
+    "Outer": "UMG_FadingBox_Text_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "UMG_FadingBox_Text_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BindTextVisuals",
+    "Outer": "UMG_FadingBox_Text_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Design Time",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Temp_text_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_TextIsEmpty_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "UMG_FadingBox_Text_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'UMG_FadingBox_Text_C:WidgetTree'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text.6"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'UMG_FadingBox_Text_C:ExecuteUbergraph_UMG_FadingBox_Text'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'UMG_FadingBox_Text_C:BindTextVisuals'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text.2"
+      },
+      {
+        "ObjectName": "Function'UMG_FadingBox_Text_C:PreConstruct'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text.1"
+      },
+      {
+        "ObjectName": "Function'UMG_FadingBox_Text_C:ExecuteUbergraph_UMG_FadingBox_Text'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MessageText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "FadeTime",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn"
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Text",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 24,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Font",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 104,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+        "Struct": {
+          "ObjectName": "ScriptStruct'SlateFontInfo'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_UMG_FadingBox_Text": {
+        "ObjectName": "Function'UMG_FadingBox_Text_C:ExecuteUbergraph_UMG_FadingBox_Text'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text.0"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'UMG_FadingBox_Text_C:PreConstruct'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text.1"
+      },
+      "BindTextVisuals": {
+        "ObjectName": "Function'UMG_FadingBox_Text_C:BindTextVisuals'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text.2"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "UMG_FadingBox_Text_C'Default__UMG_FadingBox_Text_C'",
+      "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text.4"
+    }
+  },
+  {
+    "Type": "UMG_FadingBox_Text_C",
+    "Name": "Default__UMG_FadingBox_Text_C",
+    "Class": "WidgetBlueprintGeneratedClass'PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text.UMG_FadingBox_Text_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Headset_Default'",
+          "ObjectPath": "PenDriverPro/Content/UI/Fonts/Font_Headset_Default.0"
+        },
+        "FontMaterial": null,
+        "OutlineSettings": {
+          "OutlineSize": 0,
+          "bSeparateFillAlpha": false,
+          "bApplyOutlineToDropShadows": false,
+          "OutlineMaterial": null,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        "TypefaceFontName": "Regular",
+        "Size": 14,
+        "LetterSpacing": 0
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "MessageText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "Example text!"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.885442,
+          "Hex": "E2FFFFFF"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Headset_Default'",
+          "ObjectPath": "PenDriverPro/Content/UI/Fonts/Font_Headset_Default.0"
+        },
+        "TypefaceFontName": "Regular",
+        "Size": 14
+      },
+      "AutoWrapText": true,
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "UMG_FadingBox_Text_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "TextBlock'UMG_FadingBox_Text_C:WidgetTree.MessageText'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text.5"
+      }
+    }
+  }
+]

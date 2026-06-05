@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "Function",
+    "Name": "SetTombstoneContainer",
+    "Outer": "BPI_Tombstone_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Container",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'NamedItemContainer'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPI_Tombstone_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'Interface'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BPI_Tombstone_C:SetTombstoneContainer'",
+        "ObjectPath": "PenDriverPro/Content/Gameplay/Resources/ItemContainers/Tombstone/BPI_Tombstone.0"
+      }
+    ],
+    "FuncMap": {
+      "SetTombstoneContainer": {
+        "ObjectName": "Function'BPI_Tombstone_C:SetTombstoneContainer'",
+        "ObjectPath": "PenDriverPro/Content/Gameplay/Resources/ItemContainers/Tombstone/BPI_Tombstone.0"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_Interface | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPI_Tombstone_C'Default__BPI_Tombstone_C'",
+      "ObjectPath": "PenDriverPro/Content/Gameplay/Resources/ItemContainers/Tombstone/BPI_Tombstone.2"
+    }
+  },
+  {
+    "Type": "BPI_Tombstone_C",
+    "Name": "Default__BPI_Tombstone_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Content/Gameplay/Resources/ItemContainers/Tombstone/BPI_Tombstone.BPI_Tombstone_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

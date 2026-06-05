@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "Function",
+    "Name": "_BPI_WasRecentlyScanned",
+    "Outer": "BPI_ScanHistoryProvider_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Object",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Recently Scanned",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "_BPI_RemoveRecentlyScanned",
+    "Outer": "BPI_ScanHistoryProvider_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Object",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Removed",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BPI_ScanHistoryProvider_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'Interface'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BPI_ScanHistoryProvider_C:_BPI_RemoveRecentlyScanned'",
+        "ObjectPath": "PenDriverPro/Content/Systems/Scanning/BPI_ScanHistoryProvider.1"
+      },
+      {
+        "ObjectName": "Function'BPI_ScanHistoryProvider_C:_BPI_WasRecentlyScanned'",
+        "ObjectPath": "PenDriverPro/Content/Systems/Scanning/BPI_ScanHistoryProvider.0"
+      }
+    ],
+    "FuncMap": {
+      "_BPI_WasRecentlyScanned": {
+        "ObjectName": "Function'BPI_ScanHistoryProvider_C:_BPI_WasRecentlyScanned'",
+        "ObjectPath": "PenDriverPro/Content/Systems/Scanning/BPI_ScanHistoryProvider.0"
+      },
+      "_BPI_RemoveRecentlyScanned": {
+        "ObjectName": "Function'BPI_ScanHistoryProvider_C:_BPI_RemoveRecentlyScanned'",
+        "ObjectPath": "PenDriverPro/Content/Systems/Scanning/BPI_ScanHistoryProvider.1"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_Interface | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BPI_ScanHistoryProvider_C'Default__BPI_ScanHistoryProvider_C'",
+      "ObjectPath": "PenDriverPro/Content/Systems/Scanning/BPI_ScanHistoryProvider.3"
+    }
+  },
+  {
+    "Type": "BPI_ScanHistoryProvider_C",
+    "Name": "Default__BPI_ScanHistoryProvider_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Content/Systems/Scanning/BPI_ScanHistoryProvider.BPI_ScanHistoryProvider_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

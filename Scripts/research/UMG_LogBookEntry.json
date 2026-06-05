@@ -1,0 +1,5223 @@
+[
+  {
+    "Type": "Function",
+    "Name": "OnHovered__DelegateSignature",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Widget",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'LogBookElementWidget'",
+          "ObjectPath": "/Script/PenDriverPro"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnEndHovered__DelegateSignature",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Widget",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'LogBookElementWidget'",
+          "ObjectPath": "/Script/PenDriverPro"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSubEntriesHovered__DelegateSignature",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Element",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'LogBookElementWidget'",
+          "ObjectPath": "/Script/PenDriverPro"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SubElement",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'LogBookElementWidget'",
+          "ObjectPath": "/Script/PenDriverPro"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCollapsibleChanged__DelegateSignature",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Element",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'LogBookElementWidget'",
+          "ObjectPath": "/Script/PenDriverPro"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bCollapsed",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSubEntriesEndHovered__DelegateSignature",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Element",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'LogBookElementWidget'",
+          "ObjectPath": "/Script/PenDriverPro"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SubElement",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'LogBookElementWidget'",
+          "ObjectPath": "/Script/PenDriverPro"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnClicked__DelegateSignature",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "widget",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'LogBookElementWidget'",
+          "ObjectPath": "/Script/PenDriverPro"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ListItem",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_UMG_LogBookEntry",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Is_Entry_Expanded_Expanded",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_ListItemObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_GamepadCursor_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'GamepadCursor'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bIsSelected",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Is_Entry_Selected_Selected",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bIsSelected_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_GamepadCursor_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'GamepadCursor'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ShouldAllowMouseSelection_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bIsExpanded",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsLog_Book_Data",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'LogBookData'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Is_Entry_Expanded_Expanded_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsLogbook_Category_Entry",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'LogbookCategoryEntry_C'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/LogbookCategoryEntry.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Is_Entry_Expanded_Expanded_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CalculateAcknowledgement_Any_Unackd",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_CalculateAcknowledgement_Count_Acknowledged",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_CalculateAcknowledgement_Count_Unlocked",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_CalculateAcknowledgement_Count_Total",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwningListView_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ListViewBase'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBlueprint_Tree_View",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'BlueprintTreeView'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_GamepadCursor_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'GamepadCursor'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_PreviousWidget",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'Widget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_Event_PreviousPosition",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector2D'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanBeExpanded_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_ProgressionManager_C'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/BP_ProgressionManager.177"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLogBook_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LogBook'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_Event_GamepadCursor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'GamepadCursor'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_ProgressionManager_C'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/BP_ProgressionManager.177"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_CustomEvent_Data",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "UObjectWrapper",
+        "InterfaceClass": {
+          "ObjectName": "Class'LogBookData'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_CustomEvent_Entry",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LogBookEntry'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLogBook_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LogBook'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'LogBookEntryAdded__DelegateSignature'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 20,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'LogBookEntryAdded__DelegateSignature'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_UIManager_C'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/BP_UIManager.96"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Is_Entry_Expanded_Expanded_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Is_Entry_Expanded_Expanded_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Is_Entry_Selected_Selected_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnAnyEntryAcknowledged",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "InterfaceProperty",
+        "Name": "Data",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | UObjectWrapper",
+        "InterfaceClass": {
+          "ObjectName": "Class'LogBookData'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Entry",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'LogBookEntry'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnReleased",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "GamepadCursor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'GamepadCursor'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnSelected",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "GamepadCursor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'GamepadCursor'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PreviousWidget",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'Widget'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "PreviousPosition",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector2D'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BP_OnItemExpansionChanged",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsExpanded",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BP_OnItemSelectionChanged",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsSelected",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnPressed",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "GamepadCursor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'GamepadCursor'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BP_OnEntryReleased",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnListItemObjectSet",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "ListItemObject",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnScanAcknowledged",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'LogBookElementWidget:K2_OnScanAcknowledged'",
+      "ObjectPath": "/Script/PenDriverPro"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnDataSet",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'LogBookElementWidget:K2_OnDataSet'",
+      "ObjectPath": "/Script/PenDriverPro"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnSelectionChanged",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsSelected",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "GamepadCursor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'GamepadCursor'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnDataScanned",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'LogBookElementWidget:K2_OnDataScanned'",
+      "ObjectPath": "/Script/PenDriverPro"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetIconForSubcategory",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Category",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'LogbookCategoryEntry_C'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/LogbookCategoryEntry.1"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "IconBrush",
+        "Flags": "RF_Public",
+        "ElementSize": 160,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'SlateBrush'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetDataTableRowFromName_OutRow",
+        "Flags": "RF_Public",
+        "ElementSize": 224,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'ST_CraftingUI_CategoryInfo'",
+          "ObjectPath": "PenDriverPro/Content/UI/Inventory/CraftingUI/ST_CraftingUI_CategoryInfo.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetDataTableRowFromName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "Update EntryStyle",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "TextProperty",
+        "Name": "Temp_text_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Conv_InterfaceToObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetAcknowledged_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_GetLogTitle_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CanBeExpanded_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetUnlockedCount",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Array",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Object'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "K2Node_DynamicCast_AsLog_Book_Data",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'LogBookData'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Conv_InterfaceToObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_ProgressionManager_C'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/BP_ProgressionManager.177"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetLogBook_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LogBook'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_FindEntry_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'LogBookEntry'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData_1",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 64,
+          "Struct": {
+            "ObjectName": "ScriptStruct'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData_2",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 64,
+          "Struct": {
+            "ObjectName": "ScriptStruct'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set Locked Style",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsUnlocked",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_SelectColor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_SelectColor_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdatePlayAutoScroll",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Is_Entry_Selected_Selected",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateHighlight",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Is_Entry_Expanded_Expanded",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_SelectColor_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_SelectColor_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_SelectColor_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "Struct": {
+          "ObjectName": "ScriptStruct'LinearColor'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_SlateColor",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "Struct": {
+          "ObjectName": "ScriptStruct'SlateColor'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CheckIfCollapsibleIsKnown",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsKnown",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetUnlockedLockedCount_Unlocked",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetUnlockedLockedCount_Total",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Greater_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetUnlockedLockedCount",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "Unlocked",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Parm | OutParm"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Total",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "Parm | OutParm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetHovered",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsHovered",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_K2FindManager_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "ManagerBlueprintGeneratedClass'BP_UIManager_C'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Managers/BP_UIManager.96"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetSelected",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "New Selected",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetListItemObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwningListView_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ListViewBase'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsList_View",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ListView'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Is Entry Selected",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Selected",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwningListView_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ListViewBase'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsTree_View",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TreeView'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BP_GetSelectedItem_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ObjectObject_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFocusReceived",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnFocusReceived'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "MyGeometry",
+        "Flags": "RF_Public",
+        "ElementSize": 56,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Geometry'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "InFocusEvent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'FocusEvent'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 192,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'EventReply'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Handled_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 192,
+        "Struct": {
+          "ObjectName": "ScriptStruct'EventReply'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetEntrySelectedStyle",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Selected",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetExpansionStyle",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Expanded",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Temp_float_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Is Entry Expanded",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Expanded",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwningListView_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'ListViewBase'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsBlueprint_Tree_View",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'BlueprintTreeView'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsItemExpanded_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "CanBeExpanded",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsLogbook_Category_Entry",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'LogbookCategoryEntry_C'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/LogbookCategoryEntry.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetFromLogData",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "InterfaceProperty",
+        "Name": "InData",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | UObjectWrapper",
+        "InterfaceClass": {
+          "ObjectName": "Class'LogBookData'",
+          "ObjectPath": "/Script/PenDriverInventory"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetLogIcon_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 160,
+        "Struct": {
+          "ObjectName": "ScriptStruct'SlateBrush'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_SelectInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetFromCategory",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "Category",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'LogbookCategoryEntry_C'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/LogbookCategoryEntry.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetIconForSubcategory_IconBrush",
+        "Flags": "RF_Public",
+        "ElementSize": 160,
+        "Struct": {
+          "ObjectName": "ScriptStruct'SlateBrush'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "Temp_wildcard_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "Temp_wildcard_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Object'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "Temp_text_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CheckIfCollapsibleIsKnown_bIsKnown",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ContainsAudio",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Is Unlocked",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "Unlocked",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateAcknowledgeStyle",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Temp_byte_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Temp_bool_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetAcknowledged_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsLogbook_Category_Entry",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'LogbookCategoryEntry_C'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/LogbookCategoryEntry.1"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_CalculateAcknowledgement_Any_Unackd",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_CalculateAcknowledgement_Count_Acknowledged",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_CalculateAcknowledgement_Count_Unlocked",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_CalculateAcknowledgement_Count_Total",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "K2Node_Select_Default",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'ESlateVisibility'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData_1",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 64,
+          "Struct": {
+            "ObjectName": "ScriptStruct'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData_2",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 64,
+          "Struct": {
+            "ObjectName": "ScriptStruct'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "K2Node_Select_Default_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ShouldIgnoreFocus",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "GamepadCursor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'GamepadCursor'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnNavigate",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "GamepadCursor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'GamepadCursor'",
+          "ObjectPath": "/Script/PenDriverUI"
+        }
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "Direction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'ECursorMoveDirection'",
+          "ObjectPath": "/Script/PenDriverUI"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'UMG_LogBookEntry_C:WidgetTree'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.108"
+      },
+      "bClassRequiresNativeTick": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'UMG_LogBookEntry_C:OpenCollapseAnim_INST'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.103"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:ExecuteUbergraph_UMG_LogBookEntry'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'LogBookElementWidget'",
+      "ObjectPath": "/Script/PenDriverPro"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnNavigate'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.42"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_ShouldIgnoreFocus'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.41"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:UpdateAcknowledgeStyle'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.40"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Is Unlocked'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.39"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:ContainsAudio'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.38"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetFromCategory'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.37"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetFromLogData'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.36"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:CanBeExpanded'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.35"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Is Entry Expanded'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.34"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetExpansionStyle'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.33"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetEntrySelectedStyle'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.32"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnFocusReceived'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.31"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Is Entry Selected'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.30"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetSelected'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.29"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetHovered'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.28"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:GetUnlockedLockedCount'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.27"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:CheckIfCollapsibleIsKnown'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.26"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:UpdateHighlight'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.25"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:UpdatePlayAutoScroll'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.24"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Set Locked Style'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.23"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetUnlockedCount'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.22"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Update EntryStyle'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.21"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:GetIconForSubcategory'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.20"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Construct'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.19"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnDataScanned'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.18"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnSelectionChanged'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.17"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnDataSet'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.16"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnScanAcknowledged'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.15"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnListItemObjectSet'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.14"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:BP_OnEntryReleased'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.13"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnPressed'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.12"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:BP_OnItemSelectionChanged'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.11"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:BP_OnItemExpansionChanged'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.10"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnSelected'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.9"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnReleased'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.8"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnAnyEntryAcknowledged'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.7"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:ExecuteUbergraph_UMG_LogBookEntry'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.6"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnClicked__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.5"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnSubEntriesEndHovered__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.4"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnCollapsibleChanged__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.3"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnSubEntriesHovered__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.2"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnEndHovered__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.1"
+      },
+      {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnHovered__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OpenCollapseAnim",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetAnimation'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AsteriskIcon",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Icon",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IconRetainer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'RetainerBox'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "IconSwitcher",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'WidgetSwitcher'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LeftArrow",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Line",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "NewIcon",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Image'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "NowPlayingText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SelectionBorder",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'StyledBorder_C'",
+          "ObjectPath": "PenDriverPro/Content/UI/Inventory/ItemWidgets/StylingWidgets/StyledBorder.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StyledBorder",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'StyledBorder_C'",
+          "ObjectPath": "PenDriverPro/Content/UI/Inventory/ItemWidgets/StylingWidgets/StyledBorder.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TitleText_AutoScroll",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "WidgetBlueprintGeneratedClass'UMG_AutoScrollText_C'",
+          "ObjectPath": "PenDriverPro/Content/UI/System/Utility/UMG_AutoScrollText.14"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TitleText_Slash",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "UnlockedNum",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnHovered",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'UMG_LogBookEntry_C:OnHovered__DelegateSignature'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.0"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnEndHovered",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'UMG_LogBookEntry_C:OnEndHovered__DelegateSignature'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.1"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnSubEntriesHovered",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'UMG_LogBookEntry_C:OnSubEntriesHovered__DelegateSignature'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.2"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnCollapsibleChanged",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'UMG_LogBookEntry_C:OnCollapsibleChanged__DelegateSignature'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.3"
+        }
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnSubEntriesEndHovered",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'UMG_LogBookEntry_C:OnSubEntriesEndHovered__DelegateSignature'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.4"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bUnlocked",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "totalCount",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "unlockedCount",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bShowTotalCount",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "MulticastInlineDelegateProperty",
+        "Name": "OnClicked",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+        "SignatureFunction": {
+          "ObjectName": "Function'UMG_LogBookEntry_C:OnClicked__DelegateSignature'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.5"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsSelected",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | Deprecated",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsHovered",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ListItem",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnHovered__DelegateSignature": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnHovered__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.0"
+      },
+      "OnEndHovered__DelegateSignature": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnEndHovered__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.1"
+      },
+      "OnSubEntriesHovered__DelegateSignature": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnSubEntriesHovered__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.2"
+      },
+      "OnCollapsibleChanged__DelegateSignature": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnCollapsibleChanged__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.3"
+      },
+      "OnSubEntriesEndHovered__DelegateSignature": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnSubEntriesEndHovered__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.4"
+      },
+      "OnClicked__DelegateSignature": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnClicked__DelegateSignature'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.5"
+      },
+      "ExecuteUbergraph_UMG_LogBookEntry": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:ExecuteUbergraph_UMG_LogBookEntry'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.6"
+      },
+      "OnAnyEntryAcknowledged": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnAnyEntryAcknowledged'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.7"
+      },
+      "K2_OnReleased": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnReleased'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.8"
+      },
+      "K2_OnSelected": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnSelected'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.9"
+      },
+      "BP_OnItemExpansionChanged": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:BP_OnItemExpansionChanged'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.10"
+      },
+      "BP_OnItemSelectionChanged": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:BP_OnItemSelectionChanged'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.11"
+      },
+      "K2_OnPressed": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnPressed'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.12"
+      },
+      "BP_OnEntryReleased": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:BP_OnEntryReleased'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.13"
+      },
+      "OnListItemObjectSet": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnListItemObjectSet'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.14"
+      },
+      "K2_OnScanAcknowledged": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnScanAcknowledged'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.15"
+      },
+      "K2_OnDataSet": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnDataSet'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.16"
+      },
+      "K2_OnSelectionChanged": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnSelectionChanged'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.17"
+      },
+      "K2_OnDataScanned": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnDataScanned'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.18"
+      },
+      "Construct": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Construct'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.19"
+      },
+      "GetIconForSubcategory": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:GetIconForSubcategory'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.20"
+      },
+      "Update EntryStyle": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Update EntryStyle'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.21"
+      },
+      "SetUnlockedCount": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetUnlockedCount'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.22"
+      },
+      "Set Locked Style": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Set Locked Style'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.23"
+      },
+      "UpdatePlayAutoScroll": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:UpdatePlayAutoScroll'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.24"
+      },
+      "UpdateHighlight": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:UpdateHighlight'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.25"
+      },
+      "CheckIfCollapsibleIsKnown": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:CheckIfCollapsibleIsKnown'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.26"
+      },
+      "GetUnlockedLockedCount": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:GetUnlockedLockedCount'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.27"
+      },
+      "SetHovered": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetHovered'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.28"
+      },
+      "SetSelected": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetSelected'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.29"
+      },
+      "Is Entry Selected": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Is Entry Selected'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.30"
+      },
+      "OnFocusReceived": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:OnFocusReceived'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.31"
+      },
+      "SetEntrySelectedStyle": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetEntrySelectedStyle'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.32"
+      },
+      "SetExpansionStyle": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetExpansionStyle'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.33"
+      },
+      "Is Entry Expanded": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Is Entry Expanded'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.34"
+      },
+      "CanBeExpanded": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:CanBeExpanded'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.35"
+      },
+      "SetFromLogData": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetFromLogData'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.36"
+      },
+      "SetFromCategory": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:SetFromCategory'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.37"
+      },
+      "ContainsAudio": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:ContainsAudio'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.38"
+      },
+      "Is Unlocked": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:Is Unlocked'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.39"
+      },
+      "UpdateAcknowledgeStyle": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:UpdateAcknowledgeStyle'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.40"
+      },
+      "K2_ShouldIgnoreFocus": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_ShouldIgnoreFocus'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.41"
+      },
+      "K2_OnNavigate": {
+        "ObjectName": "Function'UMG_LogBookEntry_C:K2_OnNavigate'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.42"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "Class'GamepadFocusable'",
+          "ObjectPath": "/Script/PenDriverUI"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      },
+      {
+        "Class": {
+          "ObjectName": "Class'UserObjectListEntry'",
+          "ObjectPath": "/Script/UMG"
+        },
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "UMG_LogBookEntry_C'Default__UMG_LogBookEntry_C'",
+      "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.44"
+    }
+  },
+  {
+    "Type": "UMG_LogBookEntry_C",
+    "Name": "Default__UMG_LogBookEntry_C",
+    "Class": "WidgetBlueprintGeneratedClass'PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.UMG_LogBookEntry_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bShowTotalCount": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Border'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "BrushColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'UMG_LogBookEntry_C:WidgetTree.Border_1.BorderSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.46"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_5.OverlaySlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.78"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Outer": "Border_1",
+    "Class": "UScriptClass'BorderSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border'UMG_LogBookEntry_C:WidgetTree.Border_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.45"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'UMG_LogBookEntry_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.97"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.50"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_4'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.51"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_4.OverlaySlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.76"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_2'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.53"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_1'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.52"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_3'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.54"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'UMG_LogBookEntry_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.100"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_5'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.56"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.55"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'UMG_LogBookEntry_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.99"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.47"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'UMG_LogBookEntry_C:WidgetTree.TitleText_Slash'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.94"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Right": 10.0
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.47"
+      },
+      "Content": {
+        "ObjectName": "UMG_AutoScrollText_C'UMG_LogBookEntry_C:WidgetTree.TitleText_AutoScroll'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.96"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_1",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.48"
+      },
+      "Content": {
+        "ObjectName": "Image'UMG_LogBookEntry_C:WidgetTree.NewIcon'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.60"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_1",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Right": 20.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.48"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'UMG_LogBookEntry_C:WidgetTree.NowPlayingText'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.93"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "HorizontalBox_1",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "HorizontalBox'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.48"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'UMG_LogBookEntry_C:WidgetTree.UnlockedNum'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.95"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_2",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.49"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'UMG_LogBookEntry_C:WidgetTree.SizeBox_6'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.83"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_5",
+    "Outer": "HorizontalBox_2",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.49"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'UMG_LogBookEntry_C:WidgetTree.SizeBox_4'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.81"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Icon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'UMG_LogBookEntry_C:WidgetTree.SizeBox_9.SizeBoxSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.88"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeftArrow",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 12.0,
+          "Y": 12.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'ARROW'",
+          "ObjectPath": "PenDriverPro/Content/UI/Images/MissionsQuests/ARROW.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_2.OverlaySlot_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.75"
+      },
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Line",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 2.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Horizontal_Dash'",
+          "ObjectPath": "PenDriverPro/Content/UI/Images/T_Horizontal_Dash.0"
+        },
+        "Tiling": "ESlateBrushTileType::Horizontal"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'UMG_LogBookEntry_C:WidgetTree.VerticalBox_162.VerticalBoxSlot_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.102"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "NewIcon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 18.0,
+          "Y": 18.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Envelope'",
+          "ObjectPath": "PenDriverPro/Content/UI/Images/Crafting/V2_Assets/Envelope.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.603828,
+        "G": 0.371238,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "CCA400"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.52"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "OpenCollapseAnim",
+    "Outer": "OpenCollapseAnim_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "F70DFB90-461F9B9E-5B50AD96-A9EA9C61",
+          "Name": "ExpandedArea",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'Border'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "F70DFB90-461F9B9E-5B50AD96-A9EA9C61",
+          "BindingName": "ExpandedArea",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'UMG_LogBookEntry_C:OpenCollapseAnim_INST.OpenCollapseAnim.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.63"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "3620AB9E-40623350-AFA72B92-A5241C0E"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Outer": "MovieScene2DTransformTrack_1",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_Constant",
+        "PostInfinityExtrap": "RCCE_Constant",
+        "Times": [
+          {
+            "Value": 0
+          },
+          {
+            "Value": 15000
+          }
+        ],
+        "Values": [
+          {
+            "Value": 0.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          },
+          {
+            "Value": 1.0,
+            "Tangent": {
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangentWeight": 0.0,
+              "TangentWeightMode": 0
+            },
+            "InterpMode": 2,
+            "TangentMode": 0
+          }
+        ],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 60000,
+          "Denominator": 1
+        },
+        "bShowCurve": false,
+        "StructFallback": null
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'UMG_LogBookEntry_C:OpenCollapseAnim_INST.OpenCollapseAnim.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.64"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'UMG_LogBookEntry_C:OpenCollapseAnim_INST.OpenCollapseAnim.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.65"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "01BD2CA2-4A879158-C4C38D91-A3E2BB4C"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Outer": "OpenCollapseAnim",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyBinding": {
+        "PropertyName": "RenderTransform",
+        "PropertyPath": "RenderTransform",
+        "bCanUseClassLookup": true
+      },
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'UMG_LogBookEntry_C:OpenCollapseAnim_INST.OpenCollapseAnim.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.62"
+        }
+      ],
+      "EvaluationFieldGuid": "AF7915BB-4946A0E0-3871F6BD-ECA67893",
+      "EvaluationField": {
+        "Entries": [
+          {
+            "Section": {
+              "ObjectName": "MovieScene2DTransformSection'UMG_LogBookEntry_C:OpenCollapseAnim_INST.OpenCollapseAnim.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+              "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.62"
+            },
+            "Range": {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": {
+                  "Value": 0
+                }
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": {
+                  "Value": 15000
+                }
+              }
+            },
+            "ForcedTime": {
+              "Value": -2147483648
+            },
+            "Flags": "ESectionEvaluationFlags::None",
+            "LegacySortOrder": 0
+          }
+        ]
+      },
+      "Signature": "AF7915BB-4946A0E0-3871F6BD-ECA67893"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene2DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene2DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneCompiledData",
+    "Name": "CompiledData",
+    "Outer": "OpenCollapseAnim_INST",
+    "Class": "UScriptClass'MovieSceneCompiledData'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EntityComponentField": {
+        "PersistentEntityTree": {
+          "SerializedData": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "EntityIndex": 0,
+                  "MetaDataIndex": -1
+                }
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Entities": [
+          {
+            "Key": {
+              "EntityOwner": {
+                "ObjectName": "MovieScene2DTransformSection'UMG_LogBookEntry_C:OpenCollapseAnim_INST.OpenCollapseAnim.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+                "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.62"
+              },
+              "EntityID": 0
+            },
+            "SharedMetaDataIndex": 0
+          }
+        ],
+        "SharedMetaData": [
+          {
+            "ObjectBindingID": "F70DFB90-461F9B9E-5B50AD96-A9EA9C61"
+          }
+        ]
+      },
+      "DeterminismFences": [
+        {
+          "FrameNumber": {
+            "Value": 15000
+          },
+          "SubFrame": 0.0
+        }
+      ],
+      "CompiledSignature": "18029100-43D32CA7-4248C2AC-F955F188",
+      "CompilerVersion": "7D4B9809-2FAC4A6B-964ECF72-D8279EF8",
+      "AccumulatedMask": {
+        "bEntityComponentField": true
+      },
+      "AllocatedMask": {
+        "bEntityComponentField": true
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_0.OverlaySlot_4'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.72"
+        }
+      ],
+      "Clipping": "EWidgetClipping::ClipToBounds"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_1.OverlaySlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.73"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'UMG_LogBookEntry_C:WidgetTree.SizeBox_4.SizeBoxSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.85"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_2.OverlaySlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.74"
+        },
+        {
+          "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_2.OverlaySlot_1'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.75"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_4",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_4.OverlaySlot_2'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.77"
+        },
+        {
+          "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_4.OverlaySlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.76"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'UMG_LogBookEntry_C:WidgetTree.SizeBox_6.SizeBoxSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.87"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_5",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_5.OverlaySlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.78"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'UMG_LogBookEntry_C:WidgetTree.SizeBox_5.SizeBoxSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.86"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.67"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'UMG_LogBookEntry_C:WidgetTree.IconSwitcher'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.104"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_1",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.68"
+      },
+      "Content": {
+        "ObjectName": "StyledBorder_C'UMG_LogBookEntry_C:WidgetTree.StyledBorder'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.90"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_2",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 16.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.69"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'UMG_LogBookEntry_C:WidgetTree.VerticalBox_162'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.98"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_2",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Top": 28.0,
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.69"
+      },
+      "Content": {
+        "ObjectName": "Image'UMG_LogBookEntry_C:WidgetTree.LeftArrow'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.58"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_4",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 20.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_4'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.70"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.47"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_4",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_4'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.70"
+      },
+      "Content": {
+        "ObjectName": "StyledBorder_C'UMG_LogBookEntry_C:WidgetTree.SelectionBorder'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.89"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_5",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_5'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.71"
+      },
+      "Content": {
+        "ObjectName": "Border'UMG_LogBookEntry_C:WidgetTree.Border_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.45"
+      }
+    }
+  },
+  {
+    "Type": "PanelSlot",
+    "Name": "PanelSlot_0",
+    "Outer": "IconRetainer",
+    "Class": "UScriptClass'PanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "RetainerBox'UMG_LogBookEntry_C:WidgetTree.IconRetainer'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.80"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'UMG_LogBookEntry_C:WidgetTree.SizeBox_9'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.84"
+      }
+    }
+  },
+  {
+    "Type": "RetainerBox",
+    "Name": "IconRetainer",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'RetainerBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EffectMaterial": {
+        "ObjectName": "Material'M_LogIconBorder'",
+        "ObjectPath": "PenDriverPro/Content/UI/Materials/Logbook/M_LogIconBorder.0"
+      },
+      "TextureParameter": "Target",
+      "Slots": [
+        {
+          "ObjectName": "PanelSlot'UMG_LogBookEntry_C:WidgetTree.IconRetainer.PanelSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.79"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'UMG_LogBookEntry_C:WidgetTree.IconSwitcher.WidgetSwitcherSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.105"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_4",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 48.0,
+      "HeightOverride": 60.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'UMG_LogBookEntry_C:WidgetTree.SizeBox_4.SizeBoxSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.85"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_5'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.56"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_5",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeightOverride": 80.0,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'UMG_LogBookEntry_C:WidgetTree.SizeBox_5.SizeBoxSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.86"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'UMG_LogBookEntry_C:WidgetTree.VerticalBox_162.VerticalBoxSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.101"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_6",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HeightOverride": 40.0,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'UMG_LogBookEntry_C:WidgetTree.SizeBox_6.SizeBoxSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.87"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.55"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_9",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 128.0,
+      "HeightOverride": 128.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'UMG_LogBookEntry_C:WidgetTree.SizeBox_9.SizeBoxSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.88"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "PanelSlot'UMG_LogBookEntry_C:WidgetTree.IconRetainer.PanelSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.79"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_4",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'UMG_LogBookEntry_C:WidgetTree.SizeBox_4'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.81"
+      },
+      "Content": {
+        "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.68"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_5",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": 5.0,
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "SizeBox'UMG_LogBookEntry_C:WidgetTree.SizeBox_5'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.82"
+      },
+      "Content": {
+        "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_5'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.71"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_6",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'UMG_LogBookEntry_C:WidgetTree.SizeBox_6'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.83"
+      },
+      "Content": {
+        "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_4'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.70"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_9",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'UMG_LogBookEntry_C:WidgetTree.SizeBox_9'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.84"
+      },
+      "Content": {
+        "ObjectName": "Image'UMG_LogBookEntry_C:WidgetTree.Icon'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.57"
+      }
+    }
+  },
+  {
+    "Type": "StyledBorder_C",
+    "Name": "SelectionBorder",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'PenDriverPro/Content/UI/Inventory/ItemWidgets/StylingWidgets/StyledBorder.StyledBorder_C'",
+    "Template": {
+      "ObjectName": "StyledBorder_C'Default__StyledBorder_C'",
+      "ObjectPath": "PenDriverPro/Content/UI/Inventory/ItemWidgets/StylingWidgets/StyledBorder.12"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BorderScale": 0.5,
+      "Slot": {
+        "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_4.OverlaySlot_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.77"
+      }
+    }
+  },
+  {
+    "Type": "StyledBorder_C",
+    "Name": "StyledBorder",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'PenDriverPro/Content/UI/Inventory/ItemWidgets/StylingWidgets/StyledBorder.StyledBorder_C'",
+    "Template": {
+      "ObjectName": "StyledBorder_C'Default__StyledBorder_C'",
+      "ObjectPath": "PenDriverPro/Content/UI/Inventory/ItemWidgets/StylingWidgets/StyledBorder.12"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BorderScale": 0.5,
+      "NamedSlotBindings": [
+        {
+          "Name": "ContentSlot",
+          "Content": {
+            "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_0'",
+            "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.67"
+          }
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_1.OverlaySlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.73"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "?",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "?"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.462077,
+          "G": 0.508881,
+          "B": 0.274677,
+          "A": 1.0,
+          "Hex": "B5BD8F"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Headset_Default'",
+          "ObjectPath": "PenDriverPro/Content/UI/Fonts/Font_Headset_Default.0"
+        },
+        "TypefaceFontName": "Regular",
+        "Size": 42
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'UMG_LogBookEntry_C:WidgetTree.IconSwitcher.WidgetSwitcherSlot_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.107"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "AsteriskIcon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "*"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.462077,
+          "G": 0.508881,
+          "B": 0.274677,
+          "A": 1.0,
+          "Hex": "B5BD8F"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Headset_Default'",
+          "ObjectPath": "PenDriverPro/Content/UI/Fonts/Font_Headset_Default.0"
+        },
+        "TypefaceFontName": "Extended",
+        "Size": 48
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'UMG_LogBookEntry_C:WidgetTree.IconSwitcher.WidgetSwitcherSlot_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.106"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "NowPlayingText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/StringTables/ST_UI.ST_UI",
+        "Key": "logbook_audio_entry_now_playing",
+        "SourceString": "Now Playing",
+        "LocalizedString": "Now Playing"
+      },
+      "ColorAndOpacity": {
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'PixelDriver_Family'",
+          "ObjectPath": "PenDriverPro/Content/UI/Fonts/PixelDriver_Family.0"
+        },
+        "TypefaceFontName": "PixelDriver",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.53"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TitleText_Slash",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "/"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.871367,
+          "G": 0.904661,
+          "B": 0.651406,
+          "A": 1.0,
+          "Hex": "F0F4D3"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Headset_Default'",
+          "ObjectPath": "PenDriverPro/Content/UI/Fonts/Font_Headset_Default.0"
+        },
+        "TypefaceFontName": "Regular",
+        "Size": 14
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.50"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "UnlockedNum",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "0/0"
+      },
+      "ColorAndOpacity": {
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Foreground"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Headset_Default'",
+          "ObjectPath": "PenDriverPro/Content/UI/Fonts/Font_Headset_Default.0"
+        },
+        "TypefaceFontName": "Regular",
+        "Size": 10
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_3'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.54"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "UMG_AutoScrollText_C",
+    "Name": "TitleText_AutoScroll",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'PenDriverPro/Content/UI/System/Utility/UMG_AutoScrollText.UMG_AutoScrollText_C'",
+    "Template": {
+      "ObjectName": "UMG_AutoScrollText_C'Default__UMG_AutoScrollText_C'",
+      "ObjectPath": "PenDriverPro/Content/UI/System/Utility/UMG_AutoScrollText.15"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "Really insanely long item name"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Headset_Default'",
+          "ObjectPath": "PenDriverPro/Content/UI/Fonts/Font_Headset_Default.0"
+        },
+        "TypefaceFontName": "Regular",
+        "Size": 14
+      },
+      "Transform Policy": "ETextTransformPolicy::ToUpper",
+      "ColorAndOpacity": {
+        "R": 0.871367,
+        "G": 0.904661,
+        "B": 0.651406,
+        "A": 1.0,
+        "Hex": "F0F4D3"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_4'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.51"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'UMG_LogBookEntry_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.99"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'UMG_LogBookEntry_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_2'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.100"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'UMG_LogBookEntry_C:WidgetTree.Border_1.BorderSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.46"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_162",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'UMG_LogBookEntry_C:WidgetTree.VerticalBox_162.VerticalBoxSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.101"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'UMG_LogBookEntry_C:WidgetTree.VerticalBox_162.VerticalBoxSlot_2'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.102"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_2.OverlaySlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.74"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'UMG_LogBookEntry_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.97"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.49"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": -10.0,
+        "Bottom": -4.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'UMG_LogBookEntry_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.97"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'UMG_LogBookEntry_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.48"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_162",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'UMG_LogBookEntry_C:WidgetTree.VerticalBox_162'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.98"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'UMG_LogBookEntry_C:WidgetTree.SizeBox_5'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.82"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_162",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": 5.0
+      },
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "VerticalBox'UMG_LogBookEntry_C:WidgetTree.VerticalBox_162'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.98"
+      },
+      "Content": {
+        "ObjectName": "Image'UMG_LogBookEntry_C:WidgetTree.Line'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.59"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "OpenCollapseAnim_INST",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'UMG_LogBookEntry_C:OpenCollapseAnim_INST.OpenCollapseAnim'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.61"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "ExpandedArea",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "F70DFB90-461F9B9E-5B50AD96-A9EA9C61",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "OpenCollapseAnim",
+      "CompiledData": {
+        "ObjectName": "MovieSceneCompiledData'UMG_LogBookEntry_C:OpenCollapseAnim_INST.CompiledData'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.66"
+      },
+      "Signature": "18029100-43D32CA7-4248C2AC-F955F188"
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "IconSwitcher",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'UMG_LogBookEntry_C:WidgetTree.IconSwitcher.WidgetSwitcherSlot_2'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.107"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'UMG_LogBookEntry_C:WidgetTree.IconSwitcher.WidgetSwitcherSlot_1'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.106"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'UMG_LogBookEntry_C:WidgetTree.IconSwitcher.WidgetSwitcherSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.105"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'UMG_LogBookEntry_C:WidgetTree.Overlay_0.OverlaySlot_4'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.72"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "IconSwitcher",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'UMG_LogBookEntry_C:WidgetTree.IconSwitcher'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.104"
+      },
+      "Content": {
+        "ObjectName": "RetainerBox'UMG_LogBookEntry_C:WidgetTree.IconRetainer'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.80"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Outer": "IconSwitcher",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'UMG_LogBookEntry_C:WidgetTree.IconSwitcher'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.104"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'UMG_LogBookEntry_C:WidgetTree.AsteriskIcon'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.92"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_2",
+    "Outer": "IconSwitcher",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'UMG_LogBookEntry_C:WidgetTree.IconSwitcher'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.104"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'UMG_LogBookEntry_C:WidgetTree.?'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.91"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "UMG_LogBookEntry_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'UMG_LogBookEntry_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "PenDriverPro/Content/UI/LogBook/UMG_LogBookEntry.69"
+      }
+    }
+  }
+]

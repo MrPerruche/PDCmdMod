@@ -1,0 +1,200 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "UMG_FadingBox_Text_CC_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'UMG_FadingBox_Text_CC_C:WidgetTree'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "MessageText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpeakerText",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "UMG_FadingBox_Text_CC_C'Default__UMG_FadingBox_Text_CC_C'",
+      "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.1"
+    }
+  },
+  {
+    "Type": "UMG_FadingBox_Text_CC_C",
+    "Name": "Default__UMG_FadingBox_Text_CC_C",
+    "Class": "WidgetBlueprintGeneratedClass'PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.UMG_FadingBox_Text_CC_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'UMG_FadingBox_Text_CC_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_1'",
+          "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.4"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'UMG_FadingBox_Text_CC_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": 2.0
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'UMG_FadingBox_Text_CC_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.2"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'UMG_FadingBox_Text_CC_C:WidgetTree.MessageText'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.5"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Right": 10.0
+      },
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'UMG_FadingBox_Text_CC_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.2"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'UMG_FadingBox_Text_CC_C:WidgetTree.SpeakerText'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.6"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "MessageText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "This is some multiline text"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.885442,
+          "Hex": "E2FFFFFF"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_GenericClean'",
+          "ObjectPath": "PenDriverPro/Content/UI/Fonts/Font_GenericClean.0"
+        },
+        "TypefaceFontName": "Default",
+        "Size": 16
+      },
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'UMG_FadingBox_Text_CC_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.3"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "SpeakerText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "CultureInvariantString": "Speaker"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Font_Montserrat'",
+          "ObjectPath": "PenDriverPro/Content/UI/Fonts/Font_Montserrat.0"
+        },
+        "TypefaceFontName": "SemiBoldItalic",
+        "Size": 18
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'UMG_FadingBox_Text_CC_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_1'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.4"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "UMG_FadingBox_Text_CC_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'UMG_FadingBox_Text_CC_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "PenDriverPro/Content/UI/UXFeedback/Elements/UMG_FadingBox_Text_CC.2"
+      }
+    }
+  }
+]

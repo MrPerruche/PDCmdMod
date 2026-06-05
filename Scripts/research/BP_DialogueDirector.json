@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_DialogueDirector",
+    "Outer": "BP_DialogueDirector_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_MissionEvent_State",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_MissionEvent_Success",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "MissionBind_QD_Q00_Intro_Mission_C_Finished",
+    "Outer": "BP_DialogueDirector_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "State",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Success",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_DialogueDirector_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "BlueprintMissionBinding'BP_DialogueDirector_C:BlueprintMissionBinding_0'",
+          "ObjectPath": "PenDriverPro/Content/Systems/Directors/BP_DialogueDirector.4"
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_DialogueDirector_C:ExecuteUbergraph_BP_DialogueDirector'",
+        "ObjectPath": "PenDriverPro/Content/Systems/Directors/BP_DialogueDirector.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'BaseDirector'",
+      "ObjectPath": "/Script/PenDriverPro"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_DialogueDirector_C:MissionBind_QD_Q00_Intro_Mission_C_Finished'",
+        "ObjectPath": "PenDriverPro/Content/Systems/Directors/BP_DialogueDirector.1"
+      },
+      {
+        "ObjectName": "Function'BP_DialogueDirector_C:ExecuteUbergraph_BP_DialogueDirector'",
+        "ObjectPath": "PenDriverPro/Content/Systems/Directors/BP_DialogueDirector.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_DialogueDirector": {
+        "ObjectName": "Function'BP_DialogueDirector_C:ExecuteUbergraph_BP_DialogueDirector'",
+        "ObjectPath": "PenDriverPro/Content/Systems/Directors/BP_DialogueDirector.0"
+      },
+      "MissionBind_QD_Q00_Intro_Mission_C_Finished": {
+        "ObjectName": "Function'BP_DialogueDirector_C:MissionBind_QD_Q00_Intro_Mission_C_Finished'",
+        "ObjectPath": "PenDriverPro/Content/Systems/Directors/BP_DialogueDirector.1"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'DrivingGameInstance'",
+      "ObjectPath": "/Script/PenDriverPro"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_DialogueDirector_C'Default__BP_DialogueDirector_C'",
+      "ObjectPath": "PenDriverPro/Content/Systems/Directors/BP_DialogueDirector.3"
+    }
+  },
+  {
+    "Type": "BP_DialogueDirector_C",
+    "Name": "Default__BP_DialogueDirector_C",
+    "Class": "BlueprintGeneratedClass'PenDriverPro/Content/Systems/Directors/BP_DialogueDirector.BP_DialogueDirector_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "BlueprintMissionBinding",
+    "Name": "BlueprintMissionBinding_0",
+    "Outer": "BP_DialogueDirector_C",
+    "Class": "UScriptClass'BlueprintMissionBinding'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Bindings": [
+        {
+          "Asset": {
+            "AssetPathName": "/Game/Gameplay/Quests/Old/QD_Q00_Intro_Mission_C.QD_Q00_Intro_Mission_C",
+            "SubPathString": ""
+          },
+          "BindingType": "EMissionBindingType::MissionEnd",
+          "NameFilter": "None",
+          "FunctionNameToBind": "MissionBind_QD_Q00_Intro_Mission_C_Finished"
+        }
+      ]
+    }
+  }
+]
