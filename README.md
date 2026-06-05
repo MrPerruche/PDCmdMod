@@ -8,6 +8,8 @@ Generative AI was used during development. Learn more below.
 
 See credits at the end of the readme.
 
+This mod is under the [MIT License](https://choosealicense.com/licenses/mit/). See the LICENSE file for more details.
+
 ## Installation
 
 This mod requires the latest experimental version of [Unreal Engine 4 Scripting System (UE4SS)](https://github.com/UE4SS-RE/RE-UE4SS/releases) to work. I cannot guarantee support for previous versions. Follow installation instructions [here](https://github.com/UE4SS-RE/RE-UE4SS#basic-installation) (read carefully).
